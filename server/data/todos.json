@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Выучить react",
+    "done": false
+  },
+  {
+    "id": 3,
+    "name": "Выучить typescript",
+    "done": false
+  },
+  {
+    "id": 4,
+    "name": "Выучить redux",
+    "done": false
+  }
+]

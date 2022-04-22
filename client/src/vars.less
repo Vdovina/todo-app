@@ -1,0 +1,25 @@
+@mainColor: #497081;
+@secondColor: #CCC;
+@backgroundColor: #FFFF;
+
+@two: 2px;
+@doubleTwo: @two * 2;
+
+.borderStyle(@side: 'all', @radius: 5px) when (@side = 'left') {
+  border-radius: @radius 0 0 @radius;
+}
+
+.borderStyle(@side: 'all', @radius: 5px) when (@side = 'right') {
+  border-radius: 0 @radius @radius 0;
+}
+
+.borderStyle(@side: 'all', @radius: 5px) when (default()) {
+  border-radius: @radius;
+}
+
+.inputStyle(@color: @secondColor) {
+  line-height: 22px;
+  font-size: 14px;
+  border: 1px solid @color;
+  transition: border .3s ease;
+}

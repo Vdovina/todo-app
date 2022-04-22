@@ -1,0 +1,31 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel public/index.html --open"
+  },
+  "proxy": "http://localhost:3000",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.9",
+    "less": "^4.1.1",
+    "parcel-bundler": "^1.12.5",
+    "reactjs-popup": "^2.0.4",
+    "sass": "^1.35.2",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.1",
+    "axios": "^0.21.1",
+    "classnames": "^2.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.1"
+  }
+}
